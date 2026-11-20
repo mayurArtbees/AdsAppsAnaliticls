@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Advertising ID for ad personalisation and attribution (Android 13+). -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application>
+        <!-- Full-screen in-house (house) ad served by the analytics panel. -->
+        <activity
+            android:name="com.codemax.adsanalytics.ads.InHouseAdActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AdsAnalytics.FullScreen" />
+    </application>
+</manifest>

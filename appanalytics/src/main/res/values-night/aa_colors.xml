@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aa_native_background">#FF1E1E1E</color>
+    <color name="aa_native_stroke">#33FFFFFF</color>
+    <color name="aa_text_primary">#FFE6E1E5</color>
+    <color name="aa_text_secondary">#FFB0AEB2</color>
+    <color name="aa_cta_background">#FF8AB4F8</color>
+    <color name="aa_cta_text">#FF0B1E3A</color>
+    <color name="aa_overlay_background">#FF121212</color>
+    <color name="aa_loading_background">#FF121212</color>
+</resources>

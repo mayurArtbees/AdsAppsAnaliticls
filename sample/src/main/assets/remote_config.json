@@ -1,0 +1,17 @@
+{
+  "cb_fetch_interval": 3600,
+  "interval_show_interstitial": 15,
+  "is_delay_show_inter_splash": 6,
+  "is_load_fast_app": false,
+  "is_load_inter_splash_show": true,
+  "is_resume_ad_enabled": true,
+  "resume_ad_enabled": true,
+  "is_load_native_full": true,
+  "is_load_native_full_splash": true,
+  "is_load_banner_home": true,
+  "is_load_native_home": true,
+  "is_load_inter_home": true,
+  "is_load_inter_tab": true,
+  "is_load_inter_java": true,
+  "is_load_banner_java": true
+}

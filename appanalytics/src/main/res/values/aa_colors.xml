@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Override any of these in the host app to theme the SDK's ad layouts. -->
+<resources>
+    <color name="aa_native_background">#FFFFFFFF</color>
+    <color name="aa_native_stroke">#1F000000</color>
+    <color name="aa_text_primary">#FF1C1B1F</color>
+    <color name="aa_text_secondary">#FF5F5E62</color>
+    <color name="aa_cta_background">#FF1A73E8</color>
+    <color name="aa_cta_text">#FFFFFFFF</color>
+    <color name="aa_badge_background">#FFF9AB00</color>
+    <color name="aa_badge_text">#FF000000</color>
+    <color name="aa_overlay_background">#FFFFFFFF</color>
+    <color name="aa_loading_background">#FFFFFFFF</color>
+    <color name="aa_countdown_background">#99000000</color>
+</resources>
