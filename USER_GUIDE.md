@@ -73,8 +73,11 @@ The app must use **minSdk 24 or higher** and **compileSdk 36**.
 2. In your app:
 
    ```kotlin
-   repositories { mavenLocal() }
-   dependencies { implementation("com.codemax:adsanalytics:1.0.0") }
+   // settings.gradle.kts -> dependencyResolutionManagement.repositories
+   maven("https://jitpack.io")
+
+   // app/build.gradle.kts
+   dependencies { implementation("com.github.mayurArtbees:AdsAppsAnaliticls:1.0.0") }
    ```
 
 ### Optional: Firebase and Facebook

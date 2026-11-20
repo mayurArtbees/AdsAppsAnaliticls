@@ -20,7 +20,13 @@ include(":adsanalytics")
 dependencies { implementation(project(":adsanalytics")) }
 ```
 
-**As a Maven artifact:** run `./gradlew :adsanalytics:publishToMavenLocal`, then:
+**From JitPack (recommended):** add `maven("https://jitpack.io")` to `dependencyResolutionManagement.repositories` in `settings.gradle.kts`, then:
+
+```kotlin
+dependencies { implementation("com.github.mayurArtbees:AdsAppsAnaliticls:1.0.0") }
+```
+
+**As a local Maven artifact:** run `./gradlew :appanalytics:publishToMavenLocal`, then:
 
 ```kotlin
 repositories { mavenLocal() }
